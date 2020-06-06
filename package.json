@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sarafan-network/sarafan/issues"
   },
-  "homepage": "https://github.com/Sarafan-network/sarafan#readme"
+  "homepage": "https://github.com/Sarafan-network/sarafan#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
