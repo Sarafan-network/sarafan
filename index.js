@@ -5,8 +5,10 @@ var app = express();
 
 app.use(express.static('spa'));
 
-app.listen(80, function () {
-  console.log('listening on port 80');
+const PORT = process.env.PORT || 8081;
+
+app.listen(PORT, function () {
+  console.log('listening on port', PORT);
 });
 
 //
